@@ -1,0 +1,155 @@
+
+//Color variables
+$font-stack: 'Noto Sans Mono', monospace
+$bcolor: #eae4e4
+$text-color: #0E111B
+$header-bcolor: #B8B8B8
+$second-bcolor: #84615C
+$navheight: 5rem
+$liwidth: 7rem
+
+//Body Styling
+body
+  font: 100% $font-stack
+  color: $text-color
+  background-color: $bcolor
+  padding: 0
+  margin: 0
+
+// Title banner styles
+h1
+  background-color: $header-bcolor
+  text-align: center
+  height: 70px
+  line-height: 70px
+
+//Images Styles
+
+.logomansa
+  height: 80px
+  padding: 0px
+  margin: 0px
+  float: left
+
+.mansaimg
+  border-radius: 30px
+  height: 500px
+  margin: 10px
+  float: right
+
+.artimg
+  height: 250px
+  width: 100%
+  border-top-left-radius: 30px
+  border-top-right-radius: 30px
+
+
+//Navigation Styles
+nav
+  height: $navheight
+  background-color: $second-bcolor
+  list-style-type: none
+  margin: 0
+  padding: 0
+  width: 100%
+  //position: fixed
+  //top: 0px
+
+ul
+  height: $navheight
+  background-color: $second-bcolor
+  list-style-type: none
+  margin: 0
+  padding: 0
+  display: inline
+  .navli
+    float: left
+    line-height: $navheight
+    width: 7rem
+    a
+      text-decoration: none
+      text-align: center
+      display: block
+      color: $text-color
+      height: $navheight
+      width: $liwidth
+    a:hover
+      background-color: snow
+    a:active
+      color: white
+
+p
+  padding: 16px
+.welcome
+  margin: 0px
+  padding: 0px
+
+.welcomel
+  display: flex
+  section
+    width: 60%
+    p
+      padding-left: 70px
+      width: 530px
+      text-align: justify
+    h2
+      padding: 70px
+  img
+    padding: 10px
+.recent
+  section
+    display: flex
+    padding: 30px
+  article
+    flex: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: $header-bcolor
+    margin: 19px
+    width: 300px
+    border-radius: 60px
+    h2
+      display: block
+      width: 300px
+      text-align: center
+      padding: 10px
+    p
+      width: 300px
+      text-align: justify
+      padding: 10px
+
+button
+  background-color: $second-bcolor
+  height: 50px
+  width: 130px
+  border-radius: 30px
+  border-style: none
+  margin-bottom: 25px
+button:hover
+  background-color: snow
+  border-style: groove
+  border-color: $second-bcolor
+
+.newsletter
+  text-align: center
+  margin-top: 70px
+  margin-bottom: 70px
+
+  input
+    border-radius: 30px
+    height: 50px
+    border-style: none
+    width: 250px
+  input[type=email]
+      padding-left: 25px
+footer
+  height: 100px
+  background-color: $second-bcolor
+  text-align: center
+  i
+    font-size: 50px
+    margin-top: 23px
+    margin-left: 10px
+
+

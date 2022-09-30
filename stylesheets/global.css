@@ -1,0 +1,168 @@
+body {
+  font: 100% "Noto Sans Mono", monospace;
+  color: #0E111B;
+  background-color: #eae4e4;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #B8B8B8;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logomansa {
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.mansaimg {
+  border-radius: 30px;
+  height: 500px;
+  margin: 10px;
+  float: right;
+}
+
+.artimg {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+nav {
+  height: 5rem;
+  background-color: #84615C;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  height: 5rem;
+  background-color: #84615C;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+ul .navli {
+  float: left;
+  line-height: 5rem;
+  width: 7rem;
+}
+ul .navli a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #0E111B;
+  height: 5rem;
+  width: 7rem;
+}
+ul .navli a:hover {
+  background-color: snow;
+}
+ul .navli a:active {
+  color: white;
+}
+
+p {
+  padding: 16px;
+}
+
+.welcome {
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcomel {
+  display: flex;
+}
+.welcomel section {
+  width: 60%;
+}
+.welcomel section p {
+  padding-left: 70px;
+  width: 530px;
+  text-align: justify;
+}
+.welcomel section h2 {
+  padding: 70px;
+}
+.welcomel img {
+  padding: 10px;
+}
+
+.recent section {
+  display: flex;
+  padding: 30px;
+}
+.recent article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B8B8B8;
+  margin: 19px;
+  width: 300px;
+  border-radius: 60px;
+}
+.recent article h2 {
+  display: block;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+.recent article p {
+  width: 300px;
+  text-align: justify;
+  padding: 10px;
+}
+
+button {
+  background-color: #84615C;
+  height: 50px;
+  width: 130px;
+  border-radius: 30px;
+  border-style: none;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  background-color: snow;
+  border-style: groove;
+  border-color: #84615C;
+}
+
+.newsletter {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.newsletter input {
+  border-radius: 30px;
+  height: 50px;
+  border-style: none;
+  width: 250px;
+}
+.newsletter input[type=email] {
+  padding-left: 25px;
+}
+
+footer {
+  height: 100px;
+  background-color: #84615C;
+  text-align: center;
+}
+footer i {
+  font-size: 50px;
+  margin-top: 23px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=global.css.map */
