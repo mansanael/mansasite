@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c73c6b-b6a6-44fb-acbf-c8e4d9df80aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/mediaqueries.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/mediaqueries.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/mediaqueries.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/mediaqueries.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/mediaqueries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/mediaqueries.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/mediaqueries.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
       <updated>1664541273944</updated>
       <workItem from="1664541275861" duration="2780000" />
       <workItem from="1664644409628" duration="8113000" />
-      <workItem from="1664715862450" duration="4420000" />
+      <workItem from="1664715862450" duration="5217000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,12 @@
+//Color variables
+$font-stack: 'Noto Sans Mono', monospace
+$bcolor: #eae4e4
+$text-color: #0E111B
+$header-bcolor: #B8B8B8
+$second-bcolor: #84615C
+$navheight: 5rem
+$liwidth: 7rem
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)
   header
@@ -16,8 +25,9 @@
       background-color: snow
       align-items: center
       width: 100%
-      height: 100%
+      height: 400px
       li
+        width: 100%
         a
           width: 100%
           background-color: snow
@@ -39,6 +49,29 @@
       p
         margin: 0
         padding: 0
+
+.recent
+  section
+    display: flex
+    flex-direction: column
+  article
+    flex: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: $header-bcolor
+    margin: 19px
+    width: 300px
+    border-radius: 60px
+    h2
+      display: block
+      width: 300px
+      text-align: center
+      padding: 5px
+    p
+      width: 300px
+      text-align: justify
+      padding: 5px
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
