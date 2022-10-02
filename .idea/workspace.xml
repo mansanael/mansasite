@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/mediaqueries.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/mediaqueries.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css.map" afterDir="false" />
@@ -68,7 +67,7 @@
       <workItem from="1664725880137" duration="855000" />
       <workItem from="1664727820668" duration="305000" />
       <workItem from="1664732048620" duration="89000" />
-      <workItem from="1664745630210" duration="1341000" />
+      <workItem from="1664745630210" duration="2327000" />
     </task>
     <servers />
   </component>

@@ -5,29 +5,37 @@
     height: 400px;
   }
   nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-  }
-  nav .logomansa {
+    height: 5rem;
+    background-color: #84615C;
+    margin: 0;
     padding: 0;
+    width: 100%;
   }
-  nav ul {
+  ul {
+    height: 440px;
+    background-color: #84615C;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: snow;
-    align-items: center;
-    width: 100%;
-    height: 400px;
   }
-  nav ul li {
-    width: 100%;
+  ul .navli {
+    width: 7rem;
   }
-  nav ul li a {
-    width: 100%;
+  ul .navli a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #0E111B;
+    height: 5rem;
+    width: 7rem;
+  }
+  ul .navli a:hover {
     background-color: snow;
-    height: 30px;
+  }
+  ul .navli a:active {
+    color: white;
   }
   .welcome {
     display: flex;
@@ -40,16 +48,14 @@
     align-items: center;
   }
   .welcome section {
-    padding: 0;
-    margin: 0;
+    width: 300px;
   }
   .welcome section h2 {
     margin: 0;
     padding: 0;
   }
   .welcome section p {
-    margin: 0;
-    padding: 0;
+    dv: 100%;
   }
   .recent section {
     display: flex;
