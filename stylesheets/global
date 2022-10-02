@@ -29,54 +29,57 @@
     background-color: snow;
     height: 30px;
   }
-  .welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .welcome .welcomel {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .welcome section {
-    padding: 0;
-    margin: 0;
-  }
-  .welcome section h2 {
-    margin: 0;
-    padding: 0;
-  }
-  .welcome section p {
-    margin: 0;
-    padding: 0;
-  }
-  .recent section {
-    display: flex;
-    flex-direction: column;
-  }
-  .recent article {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #B8B8B8;
-    margin: 19px;
-    width: 300px;
-    border-radius: 60px;
-  }
-  .recent article h2 {
-    display: block;
-    width: 300px;
-    text-align: center;
-    padding: 5px;
-  }
-  .recent article p {
-    width: 300px;
-    text-align: justify;
-    padding: 5px;
-  }
 }
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome .welcomel {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.welcome .welcomel section {
+  padding: 0;
+  margin: 0;
+}
+.welcome .welcomel section h2 {
+  margin: 0;
+  padding: 0;
+}
+.welcome .welcomel section p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.recent section {
+  display: flex;
+  flex-direction: column;
+}
+.recent article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B8B8B8;
+  margin: 19px;
+  width: 300px;
+  border-radius: 60px;
+}
+.recent article h2 {
+  display: block;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+}
+.recent article p {
+  width: 300px;
+  text-align: justify;
+  padding: 5px;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   nav {
@@ -153,7 +156,8 @@ nav {
   padding: 0;
   width: 100%;
 }
-nav ul {
+
+ul {
   height: 5rem;
   background-color: #84615C;
   list-style-type: none;
@@ -161,12 +165,12 @@ nav ul {
   padding: 0;
   display: inline;
 }
-nav ul .navli {
+ul .navli {
   float: left;
   line-height: 5rem;
   width: 7rem;
 }
-nav ul .navli a {
+ul .navli a {
   text-decoration: none;
   text-align: center;
   display: block;
@@ -174,10 +178,10 @@ nav ul .navli a {
   height: 5rem;
   width: 7rem;
 }
-nav ul .navli a:hover {
+ul .navli a:hover {
   background-color: snow;
 }
-nav ul .navli a:active {
+ul .navli a:active {
   color: white;
 }
 
@@ -275,4 +279,4 @@ footer i {
   margin-left: 10px;
 }
 
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=global..map */

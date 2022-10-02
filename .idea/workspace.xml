@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c73c6b-b6a6-44fb-acbf-c8e4d9df80aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/mediaqueries.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/mediaqueries.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/mediaqueries.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/mediaqueries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/mediaqueries.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/mediaqueries.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Mansa/Documents/GitHub/mansasite/images",
-    "list.type.of.created.stylesheet": "Sass",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mansa/Documents/GitHub/mansasite/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mansa\Documents\GitHub\mansasite\images" />
@@ -57,6 +65,10 @@
       <workItem from="1664541275861" duration="2780000" />
       <workItem from="1664644409628" duration="8113000" />
       <workItem from="1664715862450" duration="6773000" />
+      <workItem from="1664725880137" duration="855000" />
+      <workItem from="1664727820668" duration="305000" />
+      <workItem from="1664732048620" duration="89000" />
+      <workItem from="1664745630210" duration="1341000" />
     </task>
     <servers />
   </component>
