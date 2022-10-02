@@ -49,6 +49,7 @@
   padding: 0;
 }
 .welcome .welcomel section p {
+  width: auto;
   margin: 0;
   padding: 0;
 }
