@@ -12,12 +12,11 @@
     align-items: center;
   }
   .welcome section {
-    width: 100%;
+    width: vw;
     height: auto;
   }
   .welcome section p {
-    width: 100%;
-    padding: 10px;
+    width: vw;
   }
   .recent section {
     display: flex;
@@ -85,7 +84,6 @@ nav {
   padding: 0;
   width: 100%;
 }
-
 nav ul {
   height: 5rem;
   background-color: #84615C;
@@ -94,13 +92,11 @@ nav ul {
   padding: 0;
   display: inline;
 }
-
 nav ul .navli {
   float: left;
   line-height: 5rem;
   width: 7rem;
 }
-
 nav ul .navli a {
   text-decoration: none;
   text-align: center;
@@ -109,11 +105,9 @@ nav ul .navli a {
   height: 5rem;
   width: 7rem;
 }
-
 nav ul .navli a:hover {
   background-color: snow;
 }
-
 nav ul .navli a:active {
   color: white;
 }
@@ -172,7 +166,6 @@ footer {
   background-color: #84615C;
   text-align: center;
 }
-
 footer i {
   font-size: 50px;
   margin-top: 23px;
@@ -235,10 +228,6 @@ h1 {
   line-height: 70px;
 }
 
-p {
-  padding: 16px;
-}
-
 .welcome {
   margin: 0px;
   padding: 0px;
@@ -247,21 +236,17 @@ p {
 .welcomel {
   display: flex;
 }
-
 .welcomel section {
   width: 60%;
 }
-
 .welcomel section p {
   padding-left: 70px;
   width: 530px;
   text-align: justify;
 }
-
 .welcomel section h2 {
   padding: 70px;
 }
-
 .welcomel img {
   padding: 10px;
 }
@@ -270,7 +255,6 @@ p {
   display: flex;
   padding: 30px;
 }
-
 .recent article {
   flex: 1;
   display: flex;
@@ -281,14 +265,12 @@ p {
   width: 300px;
   border-radius: 60px;
 }
-
 .recent article h2 {
   display: block;
   width: 300px;
   text-align: center;
   padding: 5px;
 }
-
 .recent article p {
   width: 300px;
   text-align: justify;
@@ -315,18 +297,71 @@ button:hover {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-
 .newsletter input {
   border-radius: 30px;
   height: 50px;
   border-style: none;
   width: 250px;
 }
-
 .newsletter input[type=email] {
   padding-left: 25px;
 }
 
-/*# sourceMappingURL=global.css.map */
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .welcome .welcomel {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .welcome section {
+    width: 100%;
+  }
+  .welcome section h2 {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .welcome section p {
+    padding: 20px;
+    width: 90%;
+    text-align: justify;
+  }
+  .recent section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .recent article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B8B8B8;
+    margin: 19px;
+    width: 300px;
+    border-radius: 60px;
+  }
+  .recent article h2 {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  .recent article p {
+    width: 300px;
+    text-align: justify;
+    padding: 5px;
+  }
+}
 
 /*# sourceMappingURL=global.css.map */

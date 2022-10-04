@@ -4,6 +4,7 @@
 @import variables.sass
 @import images.sass
 
+
 //Body Styling
 body
   font: 100% $font-stack
@@ -18,8 +19,8 @@ h1
   text-align: center
   height: 70px
   line-height: 70px
-p
-  padding: 16px
+// p
+//   padding: 16px
 .welcome
   margin: 0px
   padding: 0px
@@ -83,5 +84,55 @@ button:hover
     width: 250px
   input[type=email]
       padding-left: 25px
+
+
+@media only screen and (max-width: 768px)
+  body
+    width: 100%
+  .welcome
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 100%
+    .welcomel
+      display: flex
+      width: 100%
+      flex-direction: column-reverse
+      align-items: center
+    section
+      width: 100%
+      h2
+        padding: 20px
+        text-align: center
+        width: 100%
+      p
+        padding: 20px
+        width: 90%
+        text-align: justify
+        
+
+  .recent
+    section
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 100%
+    article
+      flex: 1
+      display: flex
+      flex-direction: column
+      align-items: center
+      background-color: $header-bcolor
+      margin: 19px
+      width: 300px
+      border-radius: 60px
+      h2
+        display: block
+        text-align: center
+        padding: 5px
+      p
+        width: 300px
+        text-align: justify
+        padding: 5px
 
 

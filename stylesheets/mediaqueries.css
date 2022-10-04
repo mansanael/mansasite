@@ -12,12 +12,11 @@
     align-items: center;
   }
   .welcome section {
-    width: 100%;
+    width: vw;
     height: auto;
   }
   .welcome section p {
-    width: 100%;
-    padding: 10px;
+    width: vw;
   }
   .recent section {
     display: flex;
