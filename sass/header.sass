@@ -1,0 +1,74 @@
+@import variables.sass
+nav
+  height: $navheight
+  background-color: $second-bcolor
+  list-style-type: none
+  margin: 0
+  padding: 0
+  width: 100%
+
+
+  ul
+    height: $navheight
+    background-color: $second-bcolor
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: inline
+    .navli
+      float: left
+      line-height: $navheight
+      width: 7rem
+      a
+        text-decoration: none
+        text-align: center
+        display: block
+        color: $text-color
+        height: $navheight
+        width: $liwidth
+      a:hover
+        background-color: snow
+      a:active
+        color: white
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+  header
+    height: 400px
+    .logomansa
+      width: 150px
+      text-align: center
+  nav
+    height: 400px
+    background-color: white
+    margin: 0
+    padding: 0
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    ul
+      background-color: $second-bcolor
+      height: 400px
+      list-style-type: none
+      margin: 0
+      padding: 0
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 100%
+      .navli
+        display: flex
+        flex-direction: column
+        a
+          text-decoration: none
+          text-align: center
+          display: block
+          color: $text-color
+          height: $navheight
+          width: $liwidth
+        a:hover
+          background-color: snow
+        a:active
+          color: white

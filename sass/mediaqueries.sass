@@ -1,63 +1,22 @@
-//Color variables
-$font-stack: 'Noto Sans Mono', monospace
-$bcolor: #eae4e4
-$text-color: #0E111B
-$header-bcolor: #B8B8B8
-$second-bcolor: #84615C
-$navheight: 5rem
-$liwidth: 7rem
+@import variables.sass
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)
-  header
-    width: 100%
-    height: 400px
-  nav
-    height: $navheight
-    background-color: $second-bcolor
-    margin: 0
-    padding: 0
-    width: 100%
-  //position: fixed
-  //top: 0px
-
-  ul
-    height: 440px
-    background-color: $second-bcolor
-    list-style-type: none
-    margin: 0
-    padding: 0
-    display: flex
-    flex-direction: column
-    .navli
-      width: 7rem
-      a
-        text-decoration: none
-        text-align: center
-        display: block
-        color: $text-color
-        height: $navheight
-        width: $liwidth
-      a:hover
-        background-color: snow
-      a:active
-        color: white
-
   .welcome
     display: flex
     flex-direction: column
     justify-content: center
     .welcomel
       display: flex
+      width: 100%
       flex-direction: column-reverse
       align-items: center
     section
-      width: 300px
-      h2
-        margin: 0
-        padding: 0
+      width: 100%
+      height: auto
       p
-        dv:100%
+        width: 100%
+        padding: 10px
 
   .recent
     section

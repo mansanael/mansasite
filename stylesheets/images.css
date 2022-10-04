@@ -1,0 +1,43 @@
+.logomansa {
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.mansaimg {
+  border-radius: 30px;
+  height: 500px;
+  margin: 10px;
+  float: right;
+}
+
+.artimg {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logomansa {
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+  }
+  .mansaimg {
+    border-radius: 30px;
+    height: 200px;
+    text-align: center;
+  }
+  .artimg {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+}
+
+/*# sourceMappingURL=images.css.map */

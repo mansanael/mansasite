@@ -1,34 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  header {
-    width: 100%;
-    height: 400px;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-  }
-  nav .logomansa {
-    padding: 0;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    background-color: snow;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-  }
-  nav ul li {
-    width: 100%;
-  }
-  nav ul li a {
-    width: 100%;
-    background-color: snow;
-    height: 30px;
-  }
   .welcome {
     display: flex;
     flex-direction: column;
@@ -36,20 +7,17 @@
   }
   .welcome .welcomel {
     display: flex;
+    width: 100%;
     flex-direction: column-reverse;
     align-items: center;
   }
   .welcome section {
-    padding: 0;
-    margin: 0;
-  }
-  .welcome section h2 {
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: auto;
   }
   .welcome section p {
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    padding: 10px;
   }
   .recent section {
     display: flex;

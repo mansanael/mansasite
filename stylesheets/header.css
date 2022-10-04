@@ -1,0 +1,87 @@
+nav {
+  height: 5rem;
+  background-color: #84615C;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav ul {
+  height: 5rem;
+  background-color: #84615C;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+nav ul .navli {
+  float: left;
+  line-height: 5rem;
+  width: 7rem;
+}
+nav ul .navli a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #0E111B;
+  height: 5rem;
+  width: 7rem;
+}
+nav ul .navli a:hover {
+  background-color: snow;
+}
+nav ul .navli a:active {
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    height: 400px;
+  }
+  header .logomansa {
+    width: 150px;
+    text-align: center;
+  }
+  nav {
+    height: 400px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    background-color: #84615C;
+    height: 400px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  nav ul .navli {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul .navli a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #0E111B;
+    height: 5rem;
+    width: 7rem;
+  }
+  nav ul .navli a:hover {
+    background-color: snow;
+  }
+  nav ul .navli a:active {
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

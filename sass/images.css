@@ -1,0 +1,22 @@
+.logomansa {
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+
+.mansaimg {
+  border-radius: 30px;
+  height: 500px;
+  margin: 10px;
+  float: right;
+}
+
+.artimg {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/*# sourceMappingURL=images.css.map */
