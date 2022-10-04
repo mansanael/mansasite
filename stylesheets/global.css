@@ -79,10 +79,13 @@
 nav {
   height: 5rem;
   background-color: #84615C;
+  opacity: 0.9;
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
 nav ul {
   height: 5rem;
@@ -101,12 +104,13 @@ nav ul .navli a {
   text-decoration: none;
   text-align: center;
   display: block;
-  color: #0E111B;
+  color: white;
   height: 5rem;
   width: 7rem;
 }
 nav ul .navli a:hover {
   background-color: snow;
+  color: black;
 }
 nav ul .navli a:active {
   color: white;
@@ -224,13 +228,19 @@ body {
 h1 {
   background-color: #B8B8B8;
   text-align: center;
-  height: 70px;
+  height: 80px;
   line-height: 70px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .welcome {
   margin: 0px;
   padding: 0px;
+  width: 100%;
+  background-image: url("../images/backimage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .welcomel {
@@ -238,19 +248,60 @@ h1 {
 }
 .welcomel section {
   width: 60%;
+  margin-top: 70px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .welcomel section p {
-  padding-left: 70px;
+  margin-left: 100px;
+  padding: 15px;
   width: 530px;
   text-align: justify;
+  background-color: rgba(255, 255, 255, 0.88);
 }
 .welcomel section h2 {
-  padding: 70px;
+  margin-left: 100px;
+  margin-top: 150px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.68);
 }
 .welcomel img {
   padding: 10px;
+  margin-top: 85px;
+  opacity: 1;
 }
 
+.work {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-image: url("../images/work.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.work .workel {
+  display: flex;
+}
+.work .workel section {
+  width: 60%;
+  margin-top: 70px;
+}
+.work .workel section p {
+  margin-left: 100px;
+  padding: 15px;
+  width: 530px;
+  text-align: justify;
+}
+.work .workel section h2 {
+  margin-left: 100px;
+  margin-top: 150px;
+  padding: 15px;
+}
+
+.recent {
+  background-image: url("../images/recentbg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 .recent section {
   display: flex;
   padding: 30px;
@@ -260,7 +311,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #B8B8B8;
+  background-color: rgba(255, 255, 255, 0.68);
   margin: 19px;
   width: 300px;
   border-radius: 60px;
