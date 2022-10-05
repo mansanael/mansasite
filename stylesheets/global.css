@@ -225,7 +225,7 @@ body {
   margin: 0;
 }
 
-h1 {
+.he1 {
   background-color: #B8B8B8;
   text-align: center;
   height: 80px;
@@ -237,7 +237,8 @@ h1 {
 .welcome {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url("../images/backimage.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -274,16 +275,18 @@ h1 {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  height: 600px;
   background-image: url("../images/work.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 .work .workel {
   display: flex;
+  color: white;
 }
 .work .workel section {
   width: 60%;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .work .workel section p {
   margin-left: 100px;
@@ -293,8 +296,38 @@ h1 {
 }
 .work .workel section h2 {
   margin-left: 100px;
-  margin-top: 150px;
+  margin-top: 80px;
   padding: 15px;
+}
+
+.biomansa {
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/biopic.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.biomansa .bioel {
+  margin-top: 100px;
+}
+.biomansa .bioel h1 {
+  margin-left: 100px;
+  padding: 15px;
+}
+.biomansa .bioel p {
+  width: 60%;
+  margin-left: 100px;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.designwork {
+  background-image: url(../images/workel.jpg);
+  padding: 10px;
+  background-attachment: fixed;
 }
 
 .recent {
