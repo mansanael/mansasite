@@ -1,49 +1,4 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .welcome .welcomel {
-    display: flex;
-    width: 100%;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .welcome section {
-    width: vw;
-    height: auto;
-  }
-  .welcome section p {
-    width: vw;
-  }
-  .recent section {
-    display: flex;
-    flex-direction: column;
-  }
-  .recent article {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #B8B8B8;
-    margin: 19px;
-    width: 300px;
-    border-radius: 60px;
-  }
-  .recent article h2 {
-    display: block;
-    width: 300px;
-    text-align: center;
-    padding: 5px;
-  }
-  .recent article p {
-    width: 300px;
-    text-align: justify;
-    padding: 5px;
-  }
-}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   nav {
