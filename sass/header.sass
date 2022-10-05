@@ -2,10 +2,13 @@
 nav
   height: $navheight
   background-color: $second-bcolor
+  opacity: 0.9
   list-style-type: none
   margin: 0
   padding: 0
   width: 100%
+  position: fixed
+  z-index: 1000
 
 
   ul
@@ -23,11 +26,12 @@ nav
         text-decoration: none
         text-align: center
         display: block
-        color: $text-color
+        color: white
         height: $navheight
         width: $liwidth
       a:hover
         background-color: snow
+        color: black
       a:active
         color: white
 
