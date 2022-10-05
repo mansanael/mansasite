@@ -42,6 +42,7 @@ nav {
   position: fixed;
   z-index: 1000;
 }
+
 nav ul {
   height: 5rem;
   background-color: #84615C;
@@ -50,11 +51,13 @@ nav ul {
   padding: 0;
   display: inline;
 }
+
 nav ul .navli {
   float: left;
   line-height: 5rem;
   width: 7rem;
 }
+
 nav ul .navli a {
   text-decoration: none;
   text-align: center;
@@ -63,10 +66,12 @@ nav ul .navli a {
   height: 5rem;
   width: 7rem;
 }
+
 nav ul .navli a:hover {
   background-color: snow;
   color: black;
 }
+
 nav ul .navli a:active {
   color: white;
 }
@@ -125,6 +130,7 @@ footer {
   background-color: #84615C;
   text-align: center;
 }
+
 footer i {
   font-size: 50px;
   margin-top: 23px;
@@ -185,6 +191,7 @@ body {
   text-align: center;
   height: 80px;
   line-height: 70px;
+  font-size: 50px;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
@@ -202,11 +209,13 @@ body {
 .welcomel {
   display: flex;
 }
+
 .welcomel section {
   width: 60%;
   margin-top: 70px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
 .welcomel section p {
   margin-left: 100px;
   padding: 15px;
@@ -214,12 +223,14 @@ body {
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.88);
 }
+
 .welcomel section h2 {
   margin-left: 100px;
   margin-top: 150px;
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.68);
 }
+
 .welcomel img {
   padding: 10px;
   margin-top: 85px;
@@ -235,20 +246,24 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .work .workel {
   display: flex;
   color: white;
 }
+
 .work .workel section {
   width: 60%;
   margin-top: 30px;
 }
+
 .work .workel section p {
   margin-left: 100px;
   padding: 15px;
   width: 530px;
   text-align: justify;
 }
+
 .work .workel section h2 {
   margin-left: 100px;
   margin-top: 80px;
@@ -260,23 +275,31 @@ body {
   padding: 0px;
   width: 100%;
   height: 100%;
-  background-image: url("../images/biopic.jpg");
+  background-image: url("../images/Backbio.png");
   background-size: cover;
   background-attachment: fixed;
   display: flex;
 }
+
 .biomansa .bioel {
   margin-top: 100px;
 }
+
 .biomansa .bioel h1 {
-  margin-left: 100px;
+  margin-left: 90px;
   padding: 15px;
 }
+
 .biomansa .bioel p {
-  width: 60%;
-  margin-left: 100px;
+  width: 50%;
+  margin-left: 90px;
   padding: 15px;
   line-height: 30px;
+  text-align: justify;
+}
+
+.aboutme {
+  margin: 60px;
 }
 
 .designwork {
@@ -290,10 +313,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .recent section {
   display: flex;
   padding: 30px;
 }
+
 .recent article {
   flex: 1;
   display: flex;
@@ -304,12 +329,14 @@ body {
   width: 300px;
   border-radius: 60px;
 }
+
 .recent article h2 {
   display: block;
   width: 300px;
   text-align: center;
   padding: 5px;
 }
+
 .recent article p {
   width: 300px;
   text-align: justify;
@@ -336,12 +363,14 @@ button:hover {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+
 .newsletter input {
   border-radius: 30px;
   height: 50px;
   border-style: none;
   width: 250px;
 }
+
 .newsletter input[type=email] {
   padding-left: 25px;
 }
@@ -402,5 +431,6 @@ button:hover {
     padding: 5px;
   }
 }
+/*# sourceMappingURL=global.css.map */
 
 /*# sourceMappingURL=global.css.map */
