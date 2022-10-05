@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c73c6b-b6a6-44fb-acbf-c8e4d9df80aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource.html" beforeDir="false" afterPath="$PROJECT_DIR$/resource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/global.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/global.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
       <workItem from="1664745630210" duration="2327000" />
       <workItem from="1664785089502" duration="1813000" />
       <workItem from="1664788389967" duration="5950000" />
-      <workItem from="1664800838879" duration="3039000" />
+      <workItem from="1664800838879" duration="5873000" />
     </task>
     <servers />
   </component>
