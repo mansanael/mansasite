@@ -4,6 +4,7 @@
 @import variables.sass
 @import images.sass
 
+
 //Body Styling
 body
   font: 100% $font-stack
@@ -13,31 +14,110 @@ body
   margin: 0
 
 // Title banner styles
-h1
+.he1
   background-color: $header-bcolor
   text-align: center
-  height: $navheight
-
-p
-  padding: 16px
+  height: 80px
+  line-height: 70px
+  margin-block-start: 0em
+  margin-block-end: 0em
+// p
+//   padding: 16px
 .welcome
   margin: 0px
   padding: 0px
-
+  width: 100vw
+  height: 100vh
+  background-image: url("../images/backimage.jpg")
+  background-size: cover
+  background-attachment: fixed
   
+
 .welcomel
   display: flex
+ 
   section
     width: 60%
+    margin-top: 70px
+    background-color: rgba(255,255,255,.7)
+
     p
-      padding-left: 70px
+      margin-left: 100px
+      padding: 15px
       width: 530px
       text-align: justify
+      background-color: rgba(255,255,255,.88)
     h2
-      padding: 70px
+      margin-left: 100px
+      margin-top: 150px
+      padding: 15px
+      background-color: rgba(255,255,255,.68)
+
   img
     padding: 10px
+    margin-top: 85px
+    opacity: 1
+
+  
+.work
+  margin: 0px
+  padding: 0px
+  width: 100%
+  height: 600px
+  background-image: url("../images/work.jpg")
+  background-size: cover
+  background-attachment: fixed
+  .workel
+    display: flex
+    color: white
+    section
+       width: 60%
+       margin-top: 30px
+       p
+         margin-left: 100px
+         padding: 15px
+         width: 530px
+         text-align: justify
+       h2
+         margin-left: 100px
+         margin-top: 80px
+         padding: 15px
+
+  
+.biomansa
+  margin-top: 0px
+  padding: 0px
+  width: 100%
+  height: 100%
+  background-image: url("../images/biopic.jpg")
+  background-size: cover
+  background-attachment: fixed
+  display: flex
+  .bioel
+    margin-top: 100px
+    h1
+      margin-left: 100px
+      padding: 15px
+    p
+      width: 60%
+      margin-left: 100px
+      padding: 15px
+      line-height: 30px
+
+  
+  
+.designwork
+  background-image: url(../images/workel.jpg)
+  padding: 10px
+  background-attachment: fixed
+  
+  
+  
 .recent
+  background-image: url("../images/recentbg.jpg")
+  background-size: cover
+  background-attachment: fixed
+
   section
     display: flex
     padding: 30px
@@ -46,7 +126,7 @@ p
     display: flex
     flex-direction: column
     align-items: center
-    background-color: $header-bcolor
+    background-color: rgba(255,255,255,.68)
     margin: 19px
     width: 300px
     border-radius: 60px
@@ -84,5 +164,56 @@ button:hover
     width: 250px
   input[type=email]
       padding-left: 25px
+
+
+@media only screen and (max-width: 768px)
+  body
+    width: 100%
+  .welcome
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 100%
+    
+    .welcomel
+      display: flex
+      width: 100%
+      flex-direction: column-reverse
+      align-items: center
+    section
+      width: 100%
+      h2
+        padding: 20px
+        text-align: center
+        width: 100%
+      p
+        padding: 20px
+        width: 90%
+        text-align: justify
+        
+
+  .recent
+    section
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 100%
+    article
+      flex: 1
+      display: flex
+      flex-direction: column
+      align-items: center
+      background-color: $header-bcolor
+      margin: 19px
+      width: 300px
+      border-radius: 60px
+      h2
+        display: block
+        text-align: center
+        padding: 5px
+      p
+        width: 300px
+        text-align: justify
+        padding: 5px
 
 

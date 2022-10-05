@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -16,7 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
 <body>
 <header>
@@ -25,18 +24,15 @@
         <ul>
             <li class="navli" ><a href="index.html">Home</a></li>
             <li class="navli" ><a href="works.html">Works</a></li>
-            <li class="navli" ><a href="resource.html">Resources</a></li>
             <li class="navli" ><a href="aboutme.html">About Me</a></li>
         </ul>
     </nav>
 </header>
 
-<h1>
-    About me
-</h1>
-<div>
-    <h1>Bio </h1>
-    <p>I began my studies in high school in quantitative techniques of economy and management.
+<div class="biomansa">
+    <section class="bioel">
+        <h1>Bio </h1>
+        <p>I began my studies in high school in quantitative techniques of economy and management.
         However, I have always been passionate about computers and this is what allowed me to join a university course in
         Computerized Management of Organizations. It's not easy as a high school or new university student to have the chance
         to have the chance to be accompanied step by step in the field where you want to evolve. I had to
@@ -45,8 +41,12 @@
         Today, as a passionate of computer science especially applied to management, I am very proud to share my knowledge.
         I am very proud to share my knowledge. Each course I teach has a very interactive teaching style
         teaching style and is adapted according to the level of the students.
-    </p>
+        </p>
+
+    </section>
+
 </div>
+
 
 <div>
     <h1>Education</h1>
@@ -80,12 +80,16 @@
     </ul>
 </div>
 
+<iframe src="docs/MagathNAEL.pdf" width="100%" height="500px">
+</iframe>
+
+
+<p class="he1">Newsletter and Ressource Update</p>
+
 
 <div>
-    <h1>News letter and Ressource Update</h1>
-    <form>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email">
+    <form class="newsletter">
+        <input placeholder="Enter your email" type="email" id="email" name="email">
         <button class="rounded-pill">Submit</button>
     </form>
 </div>
